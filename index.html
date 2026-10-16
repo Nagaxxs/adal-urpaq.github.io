@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adal Urpaq — подростки Казахстана против коррупции</title>
+<meta name="description" content="Adal Urpaq — простыми словами о коррупции для подростков Казахстана: что это, чем вредит, что грозит по закону РК и как сказать «нет». Официальный call-центр 1424.">
+<meta name="theme-color" content="#06080b">
+<meta property="og:title" content="Adal Urpaq — адал ұрпақ · честное поколение Казахстана">
+<meta property="og:description" content="Не плати. Не молчи. Сообщи: 1424.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.png" type="image/png" sizes="64x64">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/urpaq.css">
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержанию</a>
+<div class="progress" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="nav">
+    <a href="#top" class="logo" aria-label="Adal Urpaq — на главную"><img src="assets/img/logo.svg" alt="" width="36" height="36"><span>Adal Urpaq<small>адал ұрпақ · честное поколение</small></span></a>
+    <nav class="menu" id="menu" aria-label="Разделы">
+      <a href="#what">Что это</a><a href="#harm">Вред</a><a href="#you">Это про тебя</a><a href="#law">Закон</a><a href="#videos">Видео</a><a href="#act">Что делать</a><a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-right">
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<!-- HERO: aceternity/spotlight + aceternity/background-beams -->
+<section class="hero" id="top">
+  <canvas id="scene3d" aria-hidden="true"></canvas>
+  <div class="hero-bg" aria-hidden="true">
+    <div class="grid-bg"></div>
+    <svg class="spotlight" viewBox="0 0 3787 2842" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#spf)"><ellipse cx="1924.71" cy="273.501" rx="1924.71" ry="273.501" transform="matrix(-0.822377 -0.568943 -0.568943 0.822377 3631.88 2291.09)" fill="#2fd6e8" fill-opacity="0.2"/></g><defs><filter id="spf" x="0.86" y="0.84" width="3785.16" height="2840.26" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="b"/><feBlend in="SourceGraphic" in2="b" result="s"/><feGaussianBlur stdDeviation="151"/></filter></defs></svg>
+    <div class="beams" id="beams"></div>
+    <div class="glow g1"></div><div class="glow g2"></div>
+  </div>
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow" data-reveal>Для подростков Казахстана · 14–18</span>
+      <h1 data-reveal style="--i:1">Коррупция — это не «так принято». Это <span class="grad">кража твоего будущего.</span></h1>
+      <p class="lead" data-reveal style="--i:2">Купленная оценка, «помощь» с поступлением, конверт гаишнику — всё это один и тот же механизм. Разберись за 5 минут, как он работает, чем грозит и как сказать «нет» без страха.</p>
+      <div class="hero-actions" data-reveal style="--i:3">
+        <a href="#what" class="btn btn-ghost">Разобраться за 5 минут</a>
+      </div>
+      <div class="tags" data-reveal style="--i:4"><span class="tag">#AdalBol</span><span class="tag">Не дал — не взял</span><span class="tag">Честно = сильно</span></div>
+    </div>
+    <aside class="sos beam" data-reveal="zoom" style="--i:2" aria-label="Экстренно: куда звонить">
+      <div class="lbl"><span class="pulse" aria-hidden="true"></span>Вымогают взятку прямо сейчас?</div>
+      <div class="big">1424</div>
+      <p>Единый call-центр по вопросам коррупции. Бесплатно и круглосуточно — с мобильного и городского.</p>
+      <ul>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Не плати и не спорь — запомни детали</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Расскажи взрослому, которому доверяешь</li>
+        
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section class="stamp-scene" aria-hidden="true"><div class="stamp-pin"><canvas id="coins"></canvas>
+  <div class="stamp-word">ПАРА<br>АЛМА<small>Не дал — не взял · Адал бол</small><span class="stamp">ЖОҚ ✕</span></div></div></section>
+<!-- marquee: magicui/marquee -->
+<div class="strip" aria-label="Наши принципы">
+  <div class="marquee" style="--dur:50s"><div class="marquee-track">
+    <span class="chip"><i>✦</i>Адал бол</span><span class="chip"><i>✦</i>Знания не покупаются</span><span class="chip"><i>✦</i>Не дал — не взял</span><span class="chip"><i>✦</i>1424 — бесплатно 24/7</span><span class="chip"><i>✦</i>Честно = сильно</span><span class="chip"><i>✦</i>Сыбайлас жемқорлыққа жол жоқ</span><span class="chip"><i>✦</i>Молчание тоже выбор</span><span class="chip"><i>✦</i>#AdalBol</span>
+    <span class="chip" aria-hidden="true"><i>✦</i>Адал бол</span><span class="chip" aria-hidden="true"><i>✦</i>Знания не покупаются</span><span class="chip" aria-hidden="true"><i>✦</i>Не дал — не взял</span><span class="chip" aria-hidden="true"><i>✦</i>1424 — бесплатно 24/7</span><span class="chip" aria-hidden="true"><i>✦</i>Честно = сильно</span><span class="chip" aria-hidden="true"><i>✦</i>Сыбайлас жемқорлыққа жол жоқ</span><span class="chip" aria-hidden="true"><i>✦</i>Молчание тоже выбор</span><span class="chip" aria-hidden="true"><i>✦</i>#AdalBol</span>
+  </div></div>
+</div>
+
+<!-- stats: magicui/number-ticker -->
+<section style="padding:80px 0 30px" aria-labelledby="stats-h">
+  <div class="container">
+    <h2 id="stats-h" class="sr-only">Цифры</h2>
+    <div class="stats" data-stagger>
+      <div class="stat spot spot-b tq" data-reveal><b><span data-count="38">38</span><small>/100</small></b><span>баллов у Казахстана в Индексе восприятия коррупции 2025 (0 — очень коррумпировано, 100 — очень чисто)<sup>[1]</sup></span></div>
+      <div class="stat spot spot-b" data-reveal><b><span data-count="96">96</span><small>из 182</small></b><span>место Казахстана в мировом рейтинге CPI 2025. Годом ранее — 88-е<sup>[1]</sup></span></div>
+      <div class="stat spot spot-b" data-reveal><b>−<span data-count="2">2</span></b><span>балла за год: в CPI 2024 было 40, в 2025 — 38. Мы движемся не туда<sup>[1]</sup></span></div>
+      <div class="stat spot spot-b hl" data-reveal><b><span data-count="17.3" data-dec="1">17,3</span><small>млн ₸</small></b><span>максимальное вознаграждение за подтвердившееся сообщение о коррупции (4 000 МРП в 2026 г.)<sup>[3]</sup></span></div>
+    </div>
+    <p class="src" style="margin-top:16px">Источники — в конце страницы. CPI измеряет восприятие коррупции в госсекторе экспертами и бизнесом.</p>
+  </div>
+</section>
+
+<!-- WHAT: magicui/bento-grid -->
+<section id="what" aria-labelledby="what-h">
+  <div class="container">
+    <div class="center"><span class="eyebrow" data-reveal>Что такое коррупция</span><h2 id="what-h" data-reveal style="--i:1">Простыми словами: власть <span class="grad">в обмен на выгоду</span></h2><p class="lead" data-reveal style="--i:2">Когда человек с полномочиями — учитель, врач, полицейский, чиновник — использует свою должность для личной выгоды, а не для дела, это коррупция. Она бывает разной.</p></div>
+    <div class="bento" data-stagger>
+      <article class="bcard feature tall spot" data-reveal>
+        <blockquote>«Ну все же так делают» — <b>главная ложь</b>, на которой держится коррупция. Её ломают люди, которые просто отказываются играть по этим правилам.</blockquote>
+        <h3>Почему это важно именно тебе</h3>
+        <p>Через пару лет ты сдаёшь ЕНТ, поступаешь, получаешь права, идёшь на первую работу. Везде, где есть очередь, экзамен или справка, тебе могут предложить «короткий путь». Знать, как это устроено, — твоя защита.</p>
+      </article>
+      <article class="bcard spot spot-b" data-reveal><div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path d="M6 12h.01M18 12h.01"/></svg></div><h3>Взятка</h3><p>Деньги, подарок или услуга за то, чтобы человек сделал (или не сделал) что-то по своей должности.</p><span class="more">Ст. 366–367 УК РК</span></article>
+      <article class="bcard spot spot-b" data-reveal><div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg></div><h3>Вымогательство</h3><p>Когда у тебя прямо или намёками требуют «отблагодарить», иначе — двойка, отказ, «проблемы».</p><span class="more">Сообщить — 1424</span></article>
+      <article class="bcard spot spot-b" data-reveal><div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></div><h3>Блат и «свои люди»</h3><p>Место в команде, на олимпиаде или в вузе получает не лучший, а «знакомый». Это конфликт интересов.</p><span class="more">Непотизм</span></article>
+      <article class="bcard spot spot-b" data-reveal><div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v10H4V12M2 7h20v5H2zM12 22V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></div><h3>«Подарок» с условием</h3><p>Цветы и открытка учителю — норм. Дорогой подарок «чтобы поставили пятёрку» — уже нет.</p><span class="more">Граница — договорённость</span></article>
+      <article class="bcard wide spot spot-b" data-reveal><div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg></div><h3>Откаты и распил бюджета</h3><p>Чиновник выбирает подрядчика не по качеству, а по «откату». В итоге школа получает протекающую крышу, а больница — оборудование втрое дороже рынка. Это тоже коррупция — просто ты её не видишь, хотя платишь за неё налогами семьи.</p><span class="more">Госзакупки</span></article>
+    </div>
+  </div>
+</section>
+
+<!-- HARM -->
+<section id="harm" style="padding-top:20px" aria-labelledby="harm-h">
+  <div class="container">
+    <div class="center"><span class="eyebrow" data-reveal>Вред и последствия</span><h2 id="harm-h" data-reveal style="--i:1">Одна взятка — <span class="grad">цепная реакция</span></h2><p class="lead" data-reveal style="--i:2">Коррупция кажется «быстрым решением». На деле она бьёт по всем — по стране, по экономике и лично по тебе.</p></div>
+    <div class="harm" data-stagger>
+      <article class="hcard spot spot-b" data-reveal><div class="num">01 · ОБЩЕСТВО<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M4.9 4.9l14.2 14.2"/></svg></div><h3>Несправедливость становится нормой</h3><ul><li>Места, оценки и должности получают не лучшие, а те, кто заплатил.</li><li>Люди перестают доверять школам, больницам, полиции и судам.</li><li>Растёт неравенство: у кого нет денег — у того нет шансов.</li></ul></article>
+      <article class="hcard spot spot-b" data-reveal><div class="num">02 · ЭКОНОМИКА<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M23 18l-9.5-9.5-5 5L1 6"/><path d="M17 18h6v-6"/></svg></div><h3>Деньги уходят мимо тебя</h3><ul><li>Бюджет на дороги, спортзалы и стипендии оседает в чужих карманах.</li><li>Честный бизнес проигрывает — меньше новых компаний и рабочих мест.</li><li>Инвесторы обходят страны с низким рейтингом доверия.</li></ul></article>
+      <article class="hcard spot spot-b" data-reveal><div class="num">03 · ЛИЧНО ТЫ<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M6 21v-2a6 6 0 0 1 12 0v2"/></svg></div><h3>Цена «короткого пути»</h3><ul><li>Купленная оценка = пустота в знаниях, которая вскроется на ЕНТ, в вузе или на работе.</li><li>Взяткодатель тоже отвечает по закону — вплоть до уголовной ответственности.</li><li>Судимость за коррупцию закрывает путь на госслужбу — пожизненно.</li></ul></article>
+    </div>
+    <div class="chain" data-reveal aria-label="Цепочка последствий"><span>Купил оценку</span><em>→</em><span>не знаешь предмет</span><em>→</em><span>купил диплом</span><em>→</em><span>плохой врач / инженер</span><em>→</em><span>страдают люди</span><em>→</em><span>страна теряет доверие</span></div>
+  </div>
+</section>
+
+<!-- SCENARIOS -->
+<section id="you" aria-labelledby="you-h" style="background:linear-gradient(180deg,transparent,rgba(47,214,232,.03),transparent)">
+  <div class="container">
+    <div class="center"><span class="eyebrow" data-reveal>Это касается тебя</span><h2 id="you-h" data-reveal style="--i:1">Реальные ситуации. <span class="grad">Твой ход?</span></h2><p class="lead" data-reveal style="--i:2">Выбери ситуацию — посмотри, как не попасть в ловушку и что сказать.</p></div>
+    <div class="scen" data-reveal>
+      <div class="scen-tabs" role="tablist" aria-label="Ситуации">
+        <button class="scen-tab" role="tab" id="t1" aria-controls="p1" aria-selected="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>Оценка за деньги</button>
+        <button class="scen-tab" role="tab" id="t2" aria-controls="p2" aria-selected="false" tabindex="-1"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>«Помогу с ЕНТ / грантом»</button>
+        <button class="scen-tab" role="tab" id="t3" aria-controls="p3" aria-selected="false" tabindex="-1"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>Остановила полиция</button>
+        <button class="scen-tab" role="tab" id="t4" aria-controls="p4" aria-selected="false" tabindex="-1"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M12 18v-6M9 15h6"/></svg>Справка «без очереди»</button>
+        <button class="scen-tab" role="tab" id="t5" aria-controls="p5" aria-selected="false" tabindex="-1"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg>Место в сборной</button>
+      </div>
+      <div>
+        <div class="scen-panel" role="tabpanel" id="p1" aria-labelledby="t1">
+          <div class="bubble"><small>Ситуация</small>Перед четвертью учитель намекает: «Можно исправить на пятёрку, если родители “поддержат класс”». Одноклассники уже скинулись.</div>
+          <div class="moves"><div class="move no"><h4>✕ Не делай</h4><ul><li>Не сдавай деньги «как все» — это участие во взятке.</li><li>Не спорь на эмоциях при всём классе.</li></ul></div><div class="move ok"><h4>✓ Твой ход</h4><ul><li>Расскажи родителям — дословно, что сказали, когда и где.</li><li>Обратитесь к директору или в отдел образования.</li><li>Позвоните 1424 — проконсультируют, как действовать.</li></ul></div></div>
+          <p class="say"><b>Что сказать:</b> «Спасибо, я лучше пересдам тему сам(а). Подскажите, что подтянуть?»</p>
+        </div>
+        <div class="scen-panel" role="tabpanel" id="p2" aria-labelledby="t2" hidden>
+          <div class="bubble"><small>Ситуация</small>В Telegram пишет «знакомый знакомого»: «Гарантирую грант / нужные баллы ЕНТ. Оплата заранее, всё решаем».</div>
+          <div class="moves"><div class="move no"><h4>✕ Не делай</h4><ul><li>Не переводи деньги — чаще всего это мошенники, а сама попытка «купить» результат — путь к уголовной статье.</li><li>Не отправляй фото документов и ИИН.</li></ul></div><div class="move ok"><h4>✓ Твой ход</h4><ul><li>Сделай скриншоты переписки и профиля.</li><li>Покажи родителям и сообщи по 1424.</li><li>Готовься честно — гарантий «за деньги» не бывает.</li></ul></div></div>
+          <p class="say"><b>Что сказать:</b> ничего. Лучший ответ — скриншот и сообщение в 1424.</p>
+        </div>
+        <div class="scen-panel" role="tabpanel" id="p3" aria-labelledby="t3" hidden>
+          <div class="bubble"><small>Ситуация</small>Едешь со старшим братом. Его останавливают, и инспектор говорит: «Можем оформить протокол, а можем решить на месте».</div>
+          <div class="moves"><div class="move no"><h4>✕ Не делай</h4><ul><li>Не предлагай и не передавай деньги — ответственность у того, кто даёт, тоже.</li><li>Не провоцируй конфликт.</li></ul></div><div class="move ok"><h4>✓ Твой ход</h4><ul><li>Спокойно попросить оформить всё официально.</li><li>Запомнить номер жетона, машины, время и место.</li><li>Потом сообщить по 1424 — с деталями.</li></ul></div></div>
+          <p class="say"><b>Что сказать:</b> «Оформите, пожалуйста, официально. Штраф оплатим как положено».</p>
+        </div>
+        <div class="scen-panel" role="tabpanel" id="p4" aria-labelledby="t4" hidden>
+          <div class="bubble"><small>Ситуация</small>Нужна медсправка для секции или колледжа. В регистратуре шепчут: «Без осмотра и очереди — за 5 000 сделаем».</div>
+          <div class="moves"><div class="move no"><h4>✕ Не делай</h4><ul><li>Не покупай справки: фальшивая медсправка может стоить здоровья — тебе или другим.</li></ul></div><div class="move ok"><h4>✓ Твой ход</h4><ul><li>Узнай, можно ли записаться на осмотр онлайн.</li><li>Если вымогают — запомни, кто и когда, и сообщи по 1424.</li></ul></div></div>
+          <p class="say"><b>Что сказать:</b> «Спасибо, я пройду осмотр по записи».</p>
+        </div>
+        <div class="scen-panel" role="tabpanel" id="p5" aria-labelledby="t5" hidden>
+          <div class="bubble"><small>Ситуация</small>Тренер говорит: «На соревнования поедут те, чьи родители помогут с “взносом”. Без чека».</div>
+          <div class="moves"><div class="move no"><h4>✕ Не делай</h4><ul><li>Не плати наличными «без чека» за место, которое должно доставаться по результатам.</li></ul></div><div class="move ok"><h4>✓ Твой ход</h4><ul><li>Попроси родителей уточнить официальные правила отбора и взносов.</li><li>Если «взнос» — за место в команде, это повод сообщить по 1424.</li></ul></div></div>
+          <p class="say"><b>Что сказать:</b> «Я хочу поехать по результатам. Какие нормативы нужно выполнить?»</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LAW: aceternity/timeline -->
+<section id="law" aria-labelledby="law-h">
+  <div class="container">
+    <div class="center"><span class="eyebrow" data-reveal>Закон Республики Казахстан</span><h2 id="law-h" data-reveal style="--i:1">Что грозит — <span class="grad">и кто защищён</span></h2><p class="lead" data-reveal style="--i:2">Коротко о главном. Это не юридическая консультация — точные формулировки смотри в кодексах на <a href="https://adilet.zan.kz/rus/docs/K1400000226" target="_blank" rel="noopener">adilet.zan.kz</a>.</p></div>
+    <div class="tl" id="tl">
+      <div class="tl-line" aria-hidden="true"><i></i></div>
+      <div class="tl-item"><div class="tl-head"><span class="tl-dot" aria-hidden="true"></span><h3>Подарок за услугу</h3></div><div class="tl-body"><span class="law">КоАП РК, ст. 676</span><p>Если человек передаёт госслужащему или должностному лицу незаконное вознаграждение, подарок или услугу, и это ещё не уголовное преступление, — <strong>штраф 200 МРП</strong> (в 2026 году это 865 000 ₸).<sup>[4]</sup></p></div></div>
+      <div class="tl-item"><div class="tl-head"><span class="tl-dot" aria-hidden="true"></span><h3>Дать взятку</h3></div><div class="tl-body"><span class="law">УК РК, ст. 367</span><p>Дача взятки лично или через посредника — <strong>уголовное преступление</strong>: от крупного штрафа, кратного сумме взятки, до лишения свободы. Отвечает не только тот, кто берёт, но и тот, кто даёт.</p><p>С <strong>1 января 2027 года</strong> наказуемым станет уже само <strong>предложение или обещание</strong> взятки.<sup>[4]</sup></p></div></div>
+      <div class="tl-item"><div class="tl-head"><span class="tl-dot" aria-hidden="true"></span><h3>Взять или потребовать</h3></div><div class="tl-body"><span class="law">УК РК, ст. 366, 368</span><p>Получение взятки и посредничество (передать «от кого-то») — тоже уголовные статьи. За коррупционные преступления суд назначает <strong>пожизненный запрет</strong> работать на госслужбе, в судах, в госкомпаниях и ЦОНах.<sup>[4]</sup></p></div></div>
+      <div class="tl-item"><div class="tl-head"><span class="tl-dot" aria-hidden="true"></span><h3>С какого возраста</h3></div><div class="tl-body"><span class="law">УК РК, ст. 15</span><p>Уголовная ответственность по общему правилу наступает <strong>с 16 лет</strong>. Но даже если тебе меньше — отвечать могут взрослые, которые в этом участвуют, а «привычка решать вопросы» остаётся на всю жизнь.</p></div></div>
+      <div class="tl-item"><div class="tl-head"><span class="tl-dot" aria-hidden="true"></span><h3>Если у тебя вымогали</h3></div><div class="tl-body good"><span class="law">Примечание к ст. 367 УК РК</span><p>Человек, давший взятку, <strong>освобождается от уголовной ответственности</strong>, если взятку у него вымогали или он <strong>добровольно сообщил</strong> об этом в правоохранительный или специальный госорган.<sup>[4]</sup> Сообщить — всегда лучше, чем молчать.</p></div></div>
+      <div class="tl-item"><div class="tl-head"><span class="tl-dot" aria-hidden="true"></span><h3>Награда за смелость</h3></div><div class="tl-body good"><span class="law">Правила поощрения, приказ КНБ РК 2026</span><p>За сообщение, которое подтвердилось, положено вознаграждение: от <strong>30 МРП</strong> (129 750 ₸) до <strong>10% от суммы взятки</strong>, максимум <strong>4 000 МРП ≈ 17,3 млн ₸</strong>. В 2025 году так поощрили 61 человека.<sup>[3]</sup></p><p>Но помни: заведомо ложный донос — тоже наказуем.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEOS -->
+<section id="videos" aria-labelledby="vid-h" style="background:linear-gradient(180deg,transparent,rgba(254,197,12,.025),transparent)">
+  <div class="container">
+    <div class="center"><span class="eyebrow" data-reveal>Смотри</span><h2 id="vid-h" data-reveal style="--i:1">Видео от <span class="grad">Антикора и 24KZ</span></h2><p class="lead" data-reveal style="--i:2">Социальные ролики Антикоррупционной службы РК, детективный сериал QANA и сюжеты телеканала 24KZ о молодёжи против коррупции. Плеер YouTube загружается по нажатию.</p></div>
+    <div class="vgrid" data-stagger>
+      <article class="vcard big spot-b" data-reveal>
+        <div class="vframe"><button class="vplay" data-yt="Mu2H_bg0eBU" data-title="Социальный ролик по борьбе с коррупцией — ANTIKOR" aria-label="Смотреть: Социальный ролик по борьбе с коррупцией (Антикор)"><img src="assets/img/thumbs/Mu2H_bg0eBU.jpg" alt="" loading="lazy" width="1280" height="720"><span class="pb" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><span class="dur">2:42</span></button></div>
+        <div class="vbody"><h3>Сыбайлас жемқорлыққа қарсы әлеуметтік ролик / Социальный ролик по борьбе с коррупцией</h3><p>Один из самых просматриваемых роликов официального канала Антикоррупционной службы.</p><div class="vmeta"><span class="who">ANTIKOR</span><span>· YouTube · 2020</span></div></div>
+      </article>
+      <article class="vcard spot-b" data-reveal>
+        <div class="vframe"><button class="vplay" data-yt="2qdZrfp7kz8" data-title="Социальный ролик — Казахфильм и Антикор" aria-label="Смотреть: Социальный ролик Казахфильма и Антикора"><img src="assets/img/thumbs/2qdZrfp7kz8.jpg" alt="" loading="lazy" width="1280" height="720"><span class="pb" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><span class="dur">1:26</span></button></div>
+        <div class="vbody"><h3>Социальный ролик по борьбе с коррупцией</h3><p>«Казахфильм» × Антикор: ироничный ролик о «лизунах».</p><div class="vmeta"><span class="who">ANTIKOR</span><span>· 2021</span></div></div>
+      </article>
+      <article class="vcard spot-b" data-reveal>
+        <div class="vframe"><button class="vplay" data-yt="01nMn1mY2_8" data-title="Коррупция разрушает не только вашу жизнь — ANTIKOR QARAGANDY" aria-label="Смотреть: Коррупция разрушает не только вашу жизнь"><img src="assets/img/thumbs/01nMn1mY2_8.jpg" alt="" loading="lazy" width="480" height="360"><span class="pb" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><span class="dur">2:04</span></button></div>
+        <div class="vbody"><h3>Коррупция разрушает не только вашу жизнь, но и жизнь ваших близких!</h3><div class="vmeta"><span class="who">ANTIKOR QARAGANDY</span><span>· 2021</span></div></div>
+      </article>
+      <article class="vcard spot-b" data-reveal>
+        <div class="vframe"><button class="vplay" data-yt="2rxegW1W3EI" data-title="QANA (1 серия) — ANTIKOR" aria-label="Смотреть: QANA, 1 серия"><img src="assets/img/thumbs/2rxegW1W3EI.jpg" alt="" loading="lazy" width="1280" height="720"><span class="pb" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><span class="dur">19:46</span></button></div>
+        <div class="vbody"><h3>QANA (1 серия)</h3><p>Мини-сериал Антикора: детектив по реальным уголовным делам (на казахском).</p><div class="vmeta"><span class="who">ANTIKOR</span><span>· 2023</span></div></div>
+      </article>
+      <article class="vcard spot-b" data-reveal>
+        <div class="vframe"><button class="vplay" data-yt="VkG7_6txBYo" data-title="Молодёжь против коррупции — 24KZ" aria-label="Смотреть: Молодёжь против коррупции, форум в Актобе"><img src="assets/img/thumbs/VkG7_6txBYo.jpg" alt="" loading="lazy" width="480" height="360"><span class="pb" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><span class="dur">1:47</span></button></div>
+        <div class="vbody"><h3>Молодёжь против коррупции: республиканский форум прошёл в Актобе</h3><div class="vmeta"><span class="who">Телеканал 24KZ</span><span>· 2025</span></div></div>
+      </article>
+      <article class="vcard spot-b" data-reveal>
+        <div class="vframe"><button class="vplay" data-yt="AYenB9lxcRw" data-title="Ответственность за обещание и предложение взятки ужесточат — 24KZ" aria-label="Смотреть: Ответственность за обещание и предложение взятки ужесточат"><img src="assets/img/thumbs/AYenB9lxcRw.jpg" alt="" loading="lazy" width="1280" height="720"><span class="pb" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><span class="dur">10:10</span></button></div>
+        <div class="vbody"><h3>Ответственность за обещание и предложение взятки ужесточат в Казахстане</h3><div class="vmeta"><span class="who">Телеканал 24KZ</span><span>· Stop коррупция · 2025</span></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ACT -->
+<section id="act" aria-labelledby="act-h">
+  <div class="container">
+    <div class="center"><span class="eyebrow" data-reveal>Что ты можешь сделать</span><h2 id="act-h" data-reveal style="--i:1">4 шага, которые <span class="grad">реально работают</span></h2></div>
+    <div class="steps" data-stagger>
+      <div class="step spot spot-b" data-reveal><div class="n">1</div><h3>Откажись</h3><p>Спокойно и без оправданий. «Нет, спасибо, я сделаю по правилам» — полноценный ответ.</p></div>
+      <div class="step spot spot-b" data-reveal><div class="n">2</div><h3>Запомни детали</h3><p>Кто, где, когда, что сказал, какая сумма. Сохрани переписку и скриншоты. Не рискуй безопасностью.</p></div>
+      <div class="step spot spot-b" data-reveal><div class="n">3</div><h3>Расскажи взрослым</h3><p>Родителям, классному руководителю, школьному психологу — тем, кому доверяешь. Вместе проще.</p></div>
+      <div class="step spot spot-b" data-reveal><div class="n">4</div><h3>Сообщи официально</h3><p>Позвони 1424. Обращение можно подать и онлайн через eOtinish.</p></div>
+    </div>
+    <div class="channels" data-stagger>
+      <div class="ch" data-reveal><span class="t">Call-центр</span><b>1424</b><span>бесплатно, круглосуточно</span></div>
+      <div class="ch" data-reveal><span class="t">Онлайн-обращение</span><b>eOtinish.kz</b><span>единая система обращений граждан</span></div>
+      <div class="ch" data-reveal><span class="t">Инструкция</span><b>eGov.kz</b><span>что делать при столкновении с коррупцией</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ: shadcn/accordion -->
+<section id="faq" style="padding-top:20px" aria-labelledby="faq-h">
+  <div class="container">
+    <div class="center"><span class="eyebrow" data-reveal>Вопросы</span><h2 id="faq-h" data-reveal style="--i:1">Частые вопросы</h2></div>
+    <div class="faq" data-reveal>
+      <details><summary>Мне меньше 18. Могу ли я сам(а) сообщить о коррупции?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>Да, позвонить на 1424 и получить консультацию может любой. Для официального заявления лучше действовать вместе с родителями или другим взрослым, которому доверяешь, — так быстрее и спокойнее.</p></div></details>
+      <details><summary>Узнают ли, что это я сообщил(а)?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>Закон РК «О противодействии коррупции» предусматривает защиту лиц, сообщивших о коррупционном правонарушении. Антикор также заявлял о конфиденциальности обращений через call-центр. Если боишься — сначала просто проконсультируйся по 1424.</p></div></details>
+      <details><summary>А если я сам(а) уже дал(а) взятку?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>По примечанию к ст. 367 УК РК тот, у кого взятку вымогали, или кто добровольно сообщил о даче взятки в правоохранительный или специальный госорган, освобождается от уголовной ответственности. Честно рассказать — лучший выход.</p></div></details>
+      <details><summary>Подарок учителю на праздник — это коррупция?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>Цветы, открытка, рисунок — это благодарность. Коррупция начинается, когда подарок — условие: за оценку, допуск, «закрыть глаза». Чем дороже подарок и чем ближе он к экзамену, тем подозрительнее.</p></div></details>
+      <details><summary>Платят ли за сообщения о коррупции?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>Да, если информация подтвердилась и есть итоговое решение суда или органа. Размер — от 30 МРП до 10% от суммы взятки, но не больше 4 000 МРП (≈17,3 млн ₸ в 2026 году). Ложный донос, наоборот, наказуем.</p></div></details>
+      <details><summary>Этот сайт — государственный орган?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>Нет. Adal Urpaq — просветительский молодёжный проект. Чтобы делом занялись, обращайся по 1424 или через eOtinish.</p></div></details>
+      <details><summary>Кто сейчас расследует коррупцию в Казахстане?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>В 2025 году Агентство по противодействию коррупции (Антикор) присоединили к Комитету национальной безопасности. Теперь расследованиями занимается <strong>Служба по противодействию коррупции КНБ РК</strong>, а call-центр 1424 продолжает принимать сообщения.<sup>[2]</sup></p></div></details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="f-cta" data-reveal><h3>Честность — это не скучно. Это сила, которую нельзя купить.</h3></div>
+    <div class="f-grid">
+      <div><a href="#top" class="logo"><img src="assets/img/logo.svg" alt="" width="36" height="36"><span>Adal Urpaq<small>адал ұрпақ · честное поколение</small></span></a><p class="f-about">Просветительский проект для подростков Казахстана. Adal Urpaq (адал ұрпақ) по-казахски — «честное поколение».</p></div>
+      <div><h4>Разделы</h4><ul><li><a href="#what">Что такое коррупция</a></li><li><a href="#harm">Вред и последствия</a></li><li><a href="#you">Ситуации</a></li><li><a href="#law">Закон</a></li><li><a href="#videos">Видео</a></li></ul></div>
+      <div><h4>Действовать</h4><ul><li><a href="#act">4 шага</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+      <div><h4>Официально</h4><ul><li><b style="color:var(--text)">1424</b> — call-центр, 24/7</li><li><span class="plain">eOtinish.kz</span> · <span class="plain">eGov.kz</span></li></ul></div>
+    </div>
+    <div class="sources" id="sources">
+      <h4 style="font:700 13px/1 var(--font);letter-spacing:.1em;text-transform:uppercase;color:var(--dim);margin:44px 0 6px">Источники</h4>
+      <ol>
+        <li>Transparency International, Corruption Perceptions Index 2025 — Kazakhstan: <a href="https://www.transparency.org/en/countries/kazakhstan" target="_blank" rel="noopener">transparency.org</a>; <a href="https://www.transparency.kz/en/news/83-kazakhstan-drops-to-96th-in-the-corruption-perceptions-index.html" target="_blank" rel="noopener">Transparency Kazakhstan, 10.02.2026</a></li>
+        <li>Реорганизация Антикора и Положение о Службе по противодействию коррупции КНБ РК (указы 2025 г.): <a href="https://www.akorda.kz/ru/o-merah-po-sovershenstvovaniyu-sistemy-gosudarstvennogo-upravleniya-3051530" target="_blank" rel="noopener">akorda.kz</a>, <a href="https://kz.kursiv.media/2025-07-17/aisk-tokaev-utverdil-polozhenie-ob-antikorrupcionnoy-sluzhbe-v-sostave-knb/" target="_blank" rel="noopener">Kursiv, 17.07.2025</a></li>
+        <li>Правила поощрения лиц, сообщивших о коррупции (в ред. приказа Председателя КНБ РК от 05.08.2026): <a href="https://tengrinews.kz/kazakhstan_news/vyiplatyi-17-millionov-budut-pooschryat-kazahstantsev-606040/" target="_blank" rel="noopener">Tengrinews, 12.08.2026</a></li>
+        <li>Закон РК от 12.06.2026 № 312-VIII о поправках в УК, УПК и КоАП по вопросам противодействия коррупции: <a href="https://adilet.zan.kz/rus/docs/Z2600000312" target="_blank" rel="noopener">adilet.zan.kz</a>; Уголовный кодекс РК: <a href="https://adilet.zan.kz/rus/docs/K1400000226" target="_blank" rel="noopener">adilet.zan.kz</a></li>
+        <li>Call-центр 1424: <a href="https://egov.kz/cms/ru/articles/legal_relations/corruption" target="_blank" rel="noopener">egov.kz</a></li>
+      </ol>
+    </div>
+    <div class="f-bottom"><span>© 2026 Adal Urpaq — некоммерческий просветительский проект. Не является государственным органом.</span><span>Видео: YouTube-каналы ANTIKOR и Телеканал 24KZ</span></div>
+  </div>
+</footer>
+<section class="finale" aria-label="Видел — не молчи"><h2 class="finale-t"><span>ВИДЕЛ</span><span class="dash">—</span><span>НЕ&nbsp;МОЛЧИ</span></h2></section>
+<script src="assets/js/main.js"></script>
+<div class="cur" aria-hidden="true"></div>
+<script src="https://cdn.jsdelivr.net/npm/three@0.149.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="assets/js/urpaq.js"></script>
+</body>
+</html>

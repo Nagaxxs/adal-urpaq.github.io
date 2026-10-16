@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="t">
+  <title id="t">Adal Gen — логотип</title>
+  <defs>
+    <linearGradient id="g" x1="6" y1="4" x2="58" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2FD6E8"/>
+      <stop offset="1" stop-color="#00A3C4"/>
+    </linearGradient>
+    <linearGradient id="k" x1="20" y1="20" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE07A"/>
+      <stop offset="1" stop-color="#F5B400"/>
+    </linearGradient>
+  </defs>
+  <!-- shield -->
+  <path d="M32 3.5 55 11.5v18.2c0 14.4-9.6 25.6-23 30.8C18.6 55.3 9 44.1 9 29.7V11.5Z" fill="#0B1117" stroke="url(#g)" stroke-width="3" stroke-linejoin="round"/>
+  <!-- sun rays (flag motif) -->
+  <g stroke="url(#k)" stroke-width="2" stroke-linecap="round" opacity=".55">
+    <path d="M32 13v3.2M21.4 17.4l2.2 2.2M42.6 17.4l-2.2 2.2M17 28h3.2M47 28h-3.2"/>
+  </g>
+  <!-- A as an upward check: honest move -->
+  <path d="M20 44 32 21l12 23" fill="none" stroke="url(#g)" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24.6 36.4 30 41l9.6-10.4" fill="none" stroke="url(#k)" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
